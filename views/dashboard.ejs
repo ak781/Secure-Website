@@ -1,0 +1,8 @@
+<div class="card">
+  <h2>Welcome, <%= user.name %>!</h2>
+  <p>Your role: <%= user.role %></p>
+  <p>This is your secure dashboard. From here, you can access student-specific or admin-specific features (based on your role).</p>
+  <form action="/logout" method="POST">
+    <button type="submit">Logout</button>
+  </form>
+</div>
