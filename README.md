@@ -16,7 +16,7 @@ A secure student portal web application built using Node.js, Express, EJS, and M
 ---
 
 ## Folder Structure
-
+```bash
 student-portal/
 │
 ├── public/ 
@@ -27,6 +27,7 @@ student-portal/
 ├── middleware/ 
 ├── .env 
 ├── app.js 
+```
 
 
 ---
